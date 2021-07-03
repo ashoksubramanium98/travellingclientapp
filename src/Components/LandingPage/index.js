@@ -1,4 +1,5 @@
 import React from 'react';
+import {Element} from 'react-scroll';
 import {OfferBar} from '../Ui/Offer';
 import Header from '../Ui/Header';
 import Home from './home';
@@ -13,10 +14,16 @@ const LandingPage = () => (
         <OfferBar />
         <Header />
         <Home />
-        <Weather />
-        <Destinations />
+        <Element name="weather" id="weather">
+            <Weather />
+        </Element>
+        <Element name="destinations" id="destinations">
+            <Destinations />
+        </Element>
         <Promo />
-        <Quote />
+        <Element name="getAQuote" id="getAQuote">
+            <Quote />
+        </Element>
         <Footer />
     </div>
 );

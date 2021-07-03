@@ -26,6 +26,7 @@ export const NavOption = styled.h4`
     margin-right: 50px;
     font-size: 18px;
     margin-top: 30px;
+    cursor: pointer;
     :last-child{
         margin-right: 0;
     }
