@@ -3,6 +3,7 @@ import {OfferBar} from '../Ui/Offer';
 import Header from '../Ui/Header';
 import Home from './home';
 import Weather from './weather';
+import Destinations from './destinations';
 import Footer from '../Ui/Footer';
 
 const LandingPage = () => (
@@ -11,6 +12,7 @@ const LandingPage = () => (
         <Header />
         <Home />
         <Weather />
+        <Destinations />
         <Footer />
     </div>
 );
