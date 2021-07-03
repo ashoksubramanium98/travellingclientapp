@@ -27,9 +27,9 @@ const Quote = () => {
             <QuoteTitle>Travelling as a group? Get a Quote</QuoteTitle>
             <QuoteInnerContainer>
                 <FormContainer>
-                    <Input status={formStatus} label={'Your Name'} value={name} onChange={e => setName(e.target.value)} />
-                    <Input status={formStatus} label={'Contact No'} value={phoneNo} method={'number'} maxLength={10} onChange={e => setPhoneNo(e.target.value)} />
-                    <Input status={formStatus} label={'Email'} value={email} onChange={e => setEmail(e.target.value)} />
+                    <Input status={formStatus} label={'Your Name'} value={name} onChange={e => {setName(e.target.value); setFormStatus('')}} />
+                    <Input status={formStatus} label={'Contact No'} value={phoneNo} method={'number'} maxLength={10} onChange={e => {setPhoneNo(e.target.value); setFormStatus('')}} />
+                    <Input status={formStatus} label={'Email'} value={email} method={'email'} onChange={e => {setEmail(e.target.value); setFormStatus('')}} />
                     {formStatus && <SuccessMessage>We hear you! We will get back to you for planning your vacation.</SuccessMessage>}
                 </FormContainer>
                 <Button onClick={handleForm}>SUBMIT</Button>
