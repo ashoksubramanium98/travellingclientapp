@@ -4,6 +4,7 @@ import Header from '../Ui/Header';
 import Home from './home';
 import Weather from './weather';
 import Destinations from './destinations';
+import Promo from './promo';
 import Footer from '../Ui/Footer';
 
 const LandingPage = () => (
@@ -13,6 +14,7 @@ const LandingPage = () => (
         <Home />
         <Weather />
         <Destinations />
+        <Promo />
         <Footer />
     </div>
 );
