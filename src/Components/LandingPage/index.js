@@ -1,8 +1,9 @@
 import React from 'react';
+import Header from '../Ui/Header';
 
 const LandingPage = () => (
     <div>
-      	Landing Page
+        <Header />
     </div>
 );
 
