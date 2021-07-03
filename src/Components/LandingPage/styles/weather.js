@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const WeatherOuterContainer = styled.div`
     width: 100%;
     margin: 20px 0 60px 0;
+    @media(max-width: 600px){
+        margin: 20px 0 30px 0;
+    }
 `;
 
 export const WeatherInnerContainer = styled.div` 
@@ -19,6 +22,12 @@ export const WeatherTitle = styled.h4`
     margin: 0;
     font-size: 24px;
     padding: 20px 25px;
+    font-weight: 500;
+    @media(max-width: 600px){
+        font-size: 18px;
+        padding: 15px;
+        text-align: center;
+    }
 `;
 
 export const WeatherDivContainer = styled.div`
@@ -27,28 +36,28 @@ export const WeatherDivContainer = styled.div`
     @media(max-width: 800px){
         display: grid;
         grid-template-columns: 50% 50%;
-        overflow: hidden;
     }
 `;
 
 export const WeatherDiv = styled.div`
     width: 25%;
-    padding: 20px;
+    padding: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin: 0 auto;
     background: ${props => (props.index === 0) ? '#0D7E88' : ((props.index === 1) ? '#D09378' : ((props.index === 2) ? '#405B5D' : '#74A748'))};
     @media(max-width: 800px){
-        width: 90%;
+        width: 100%;
     }
 `;
 
 export const WeatherCity = styled.p`
     color: #fff;
-    font-size: 30px;
+    font-size: 24px;
     margin: 0 0 15px 0;
-    font-weight: 600;
+    font-weight: 400;
     @media(max-width: 800px){
         font-size: 18px;
     }

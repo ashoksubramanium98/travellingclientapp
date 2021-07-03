@@ -14,10 +14,11 @@ export const OfferContainer = styled.div`
 
 export const OfferText = styled.p`
     color: #fff;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 17px;
-    margin-bottom: 0;
+    margin-top: 20px;
     @media(max-width: 600px){
+        margin-top: 10px;
         font-weight: 400;
         font-size: 12px;
         text-align: center;
@@ -26,12 +27,13 @@ export const OfferText = styled.p`
 `;
 
 export const OfferTime = styled.p`
-    font-weight: 700;
+    font-weight: 500;
     margin-top: 8px;
     font-size: 17px;
     margin-bottom: 16px;
     color: #fff;
     @media(max-width: 600px){
-        font-size: 14px;
+        font-size: 12px;
+        margin-bottom: 12px;
     }
 `;

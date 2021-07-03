@@ -6,7 +6,7 @@ export const HomeOuterContainer = styled.div`
 
 export const HomeInnerContainer = styled.div`
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50% 45%;
     align-items: center;
     width: 80%;
     margin: 55px auto;

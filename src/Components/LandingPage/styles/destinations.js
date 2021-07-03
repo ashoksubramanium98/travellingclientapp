@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const DestinationOuterContainer = styled.div`
     width: 100%;
     margin: 0 0 60px 0;
+    @media(max-width: 600px){
+        margin: 0 0 30px 0;
+    }
 `;
 
 export const DestinationInnerContainer = styled.div`
@@ -17,6 +20,10 @@ export const DestinationTitle = styled.h4`
     color: #133357;
     font-size: 24px;
     padding: 0 0 20px 0;
+    font-family: 'Roboto Slab', serif;
+    @media(max-width: 600px){
+        font-size: 18px;
+    }
 `;
 
 export const DestinationDivContainer = styled.div`
@@ -49,5 +56,8 @@ export const DestinationImg = styled.img`
 `;
 
 export const DestinationCity = styled.p`
-
+    font-weight: 400;
+    color: #707070;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
 `;

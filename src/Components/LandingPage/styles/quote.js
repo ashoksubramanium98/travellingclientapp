@@ -18,13 +18,16 @@ export const QuoteInnerContainer = styled.div`
     }
 `;
 
-export const QuoteTitle = styled.h2`
-    font-size: 34px;
+export const QuoteTitle = styled.h4`
+    font-size: 30px;
     color: #133357;
     text-align: center;
-    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: 500;
+    font-family: 'Roboto Slab', serif;
     @media(max-width: 600px){
         font-size: 20px;
+        margin-bottom: 10px;
     }
     @media(max-width: 333px){
         font-size: 18px;
@@ -36,10 +39,9 @@ export const FormContainer = styled.div`
     margin-bottom: 20px;
 `;
 
-export const SuccessMessage = styled.div`
+export const SuccessMessage = styled.p`
     color: #666;
     padding: 10px;
     background: #caffbf;
     border-radius: 3px;
-    font-weight: 500;
 `;

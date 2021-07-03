@@ -8,7 +8,7 @@ const InputContainer = styled.div`
 const Label = styled.label`
     white-space: nowrap;
     margin: 0 10px 0 0;
-    font-weight: 600;
+    font-weight: 400;
     color: #aaa;
 `;
 

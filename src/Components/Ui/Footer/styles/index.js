@@ -34,7 +34,7 @@ export const FooterDiv = styled.div`
 
 export const FooterDivTitle = styled.h4`
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 22px;
     margin: 0 0 18px 0;
 `;
@@ -43,9 +43,10 @@ export const FooterOptionName = styled.p`
     color: #fff;
     margin: 6px 0;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 26px;
     @media(min-width: 600px) and (max-width: 800px){
+        font-weight: 300;
         :last-child{
            white-space: nowrap;
         }

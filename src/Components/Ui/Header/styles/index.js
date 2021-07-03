@@ -25,10 +25,12 @@ export const NavOption = styled.h4`
     font-weight: 400;
     margin-right: 50px;
     font-size: 18px;
+    margin-top: 30px;
     :last-child{
         margin-right: 0;
     }
     @media(max-width: 600px){
+        margin-top: 20px;
         margin-right: 20px;
         font-size: 16px;
     }

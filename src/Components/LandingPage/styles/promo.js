@@ -20,7 +20,7 @@ export const PromoContainer = styled.div`
 export const PromoTitle = styled.h2`
     color: #fff;
     position: absolute;
-    bottom: 120px;
+    bottom: 150px;
     left: 110px;
     font-size: 60px;
     letter-spacing: 4px;
@@ -34,9 +34,10 @@ export const PromoTitle = styled.h2`
         font-size: 30px;
     }
     @media (max-width: 600px){
-        left: 25px;
-        font-size: 24px;
-        bottom: 55px;
+        left: 20px;
+        font-size: 18px;
+        bottom: 75px;
+        font-weight: 500;
         letter-spacing: 3px;
     }
 `;
@@ -58,9 +59,10 @@ export const PromoDescription = styled.h2`
         left: 50px;
     }
     @media (max-width: 600px){
-        left: 25px;
-        font-size: 16px;
-        bottom: 15px;
+        left: 20px;
+        font-size: 14px;
+        font-weight: 400;
+        bottom: 35px;
         letter-spacing: 1px;
     }
 `;
