@@ -5,6 +5,7 @@ import Home from './home';
 import Weather from './weather';
 import Destinations from './destinations';
 import Promo from './promo';
+import Quote from './quote';
 import Footer from '../Ui/Footer';
 
 const LandingPage = () => (
@@ -15,6 +16,7 @@ const LandingPage = () => (
         <Weather />
         <Destinations />
         <Promo />
+        <Quote />
         <Footer />
     </div>
 );
