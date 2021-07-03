@@ -1,5 +1,13 @@
 import styled from "styled-components";
 
+export const LoaderContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+`;
+
 export const WeatherOuterContainer = styled.div`
     width: 100%;
     margin: 20px 0 60px 0;
